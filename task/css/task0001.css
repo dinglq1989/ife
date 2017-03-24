@@ -1,0 +1,34 @@
+body {
+	font-size: 62.5%; 
+	/* font-size: 63%;   /* IE */ */
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+p {
+    background-color: black;
+    color: yellow;
+    font-size: 1.2em;
+    margin: 0.5em;
+}
+
+img {
+    border: 0.2em solid red;
+}
+
+div {
+	border: 0.1em solid #999;
+}
+
+[class*="text"] p {
+	background-color: #444;
+    color: #eee;
+    font-size: 1.6em;
+
+}

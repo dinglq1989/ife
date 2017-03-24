@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/task0001.css">
+    <title>建立第一个网页</title>
+</head>
+
+<body>
+    <h1>dinglq1989</h1>
+    <ul>
+        <li><a href="https://github.com/dinglq1989">HomePage</a></li>
+        <li><a href="https://dinglq1989.github.io/">Blog</a></li>
+    </ul>
+    <h2>这是二级标题</h2>
+    <p>这是我的第一个HTML页面，这里有一个文字段落。</p>
+    <img src="../img/avatar.gif">
+    <div class="text-indent">
+        <p style="text-indent: ">text-indent默认值是0，不作缩进</p>
+        <p style="text-indent: 20px">text-indent: 20px 将文本向右缩进20px</p>
+        <p style="text-indent: -20px">text-indent: -20px 将文本向左缩进20px</p>
+        <p style="text-indent: 2%">text-indent: 2% 将文本向右缩进2%</p>
+        <p style="text-indent: -2%">text-indent: -2% 将文本向左缩进2%</p>
+        <p style="text-indent: 2em">text-indent: 2em 将文本向右缩进2em</p>
+        <p style="text-indent: -2em">text-indent: -2em 将文本向左缩进2em</p>
+    </div>
+    <div class="text-transform">
+        <p style="text-transform: ">text-transform默认值是none，不作大小写转换</p>
+        <p style="text-transform: uppercase">text-transform: uppercase 将文本转为大写</p>
+        <p style="text-transform: lowercase">text-transform: lowercase 将文本转为小写</p>
+        <p style="text-transform: capitalize">text-transform: capitalize 将文本转为首字母大写</p>
+    </div>
+    <div class="text-decoration">
+        <p style="text-decoration: ">text-decoration默认是none，定义标准的文本</p>
+        <p style="text-decoration: underline">text-decoration: underline,定义文本下的一条线</p>
+        <p style="text-decoration: overline">text-decoration: overline,定义文本上的一条线</p>
+        <p style="text-decoration: line-through">text-decoration: line-through,定义穿过文本的一条线</p>
+        <p style="text-decoration: blink">text-decoration: blink,定义闪烁的文本</p>
+    </div>
+    <div class="text-align">
+        <p style="direction: ltr; text-align:  ">如果 direction 属性是ltr， text-align默认是left</p>
+        <p style="direction: rtl; text-align:  ">如果 direction 属性是rtl， text-align默认是right</p>
+        <p style="text-align: left;">text-align: left,把文本排列到左边。</p>
+        <p style="text-align: right;">text-align: right,把文本排列到右边。</p>
+        <p style="text-align: center;">text-align: center,把文本排列到中间。</p>
+    </div>
+    <div class="text-word-spacing">
+        <p style="word-spacing: ">word-spacing默认值是normal，等同于设置为0 </p>
+        <p style="word-spacing: 1em">word-spacing: 1em 增加1em的单词间的空白</p>
+        <p style="word-spacing: -1em">word-spacing: -1em 减少1em的单词间的空白</p>
+    </div>
+    <div class="text-white-space">
+        <p style="white-space: ">white-space默认值是normal，空白会被浏览器忽略</p>
+        <p style="white-space: pre">white-space: pre 空白会被浏览器保留。 其行为方式类似 HTML 中的 &ltpre&gt 标签。</p>
+        <p style="white-space: nowrap;">white-space: nowrap
+            <br />文本不会换行，文本会在在同一行上继续，直到遇到 &ltbr&gt 标签为止。</p>
+        <p style="white-space: pre-wrap;">white-space: pre-wrap 保留空白符序列，但是正常地进行换行。</p>
+        <p style="white-space: pre-line;">white-space: pre-line
+            <br />合并空白符序列，但是保留换行符。</p>
+    </div>
+    <div class="text-line-height">
+    	<p style="line-height: normal;">line-height 默认值是normal。设置合理的行间距。该属性会影响行框的布局。在应用到一个块级元素时，它定义了该元素中基线之间的最小距离而不是最大距离。line-height 与 font-size 的计算值之差（在 CSS 中成为“行间距”）分为两半，分别加到一个文本行内容的顶部和底部。可以包含这些内容的最小框就是行框。
+原始数字值指定了一个缩放因子，后代元素会继承这个缩放因子而不是计算值。</p>
+<p style="line-height: 50%">line-height: 50% 行高设为50%，等同于0.5</p>
+<p style="line-height: 200%">line-height: 200% 行高设为200%，等同于2</p>
+<p style="line-height: 1em">line-height: 1em 行高设为1em</p>
+<p style="line-height: 3em">line-height: 1em 行高设为3em</p>
+    </div>
+    <div class="text-font-family">
+    	<p style="font-family: 'Times New Roman',Georgia,Serif">font-family 规定元素的字体系列。
+font-family 可以把多个字体名称作为一个“回退”系统来保存。如果浏览器不支持第一个字体，则会尝试下一个。也就是说，font-family 属性的值是用于某个元素的字体族名称或/及类族名称的一个优先表。浏览器会使用它可识别的第一个值。</p>
+    </div>
+    <div class="text-font-weight">
+    	<p style="font-weight: normal;">font-weight默认值是normal。定义标准的字符。</p>
+    	<p style="font-weight: lighter;">font-weight: lighter 定义更细的字符。</p>
+    	<p style="font-weight: bold;">font-weight: bold 定义粗体字符。</p>
+    	<p style="font-weight: bolder;">font-weight: bolder 定义更粗的字符。</p>
+    	<p style="font-weight: 100;">font-weight: 100 </p>
+    	<p style="font-weight: 200;">font-weight: 200 </p>
+    	<p style="font-weight: 300;">font-weight: 300 </p>
+    	<p style="font-weight: 400;">font-weight: 400 等同于normal</p>
+    	<p style="font-weight: 500;">font-weight: 500 </p>
+    	<p style="font-weight: 600;">font-weight: 600 </p>
+    	<p style="font-weight: 700;">font-weight: 700 等同于bold</p>
+    	<p style="font-weight: 800;">font-weight: 800 </p>
+    	<p style="font-weight: 900;">font-weight: 900 </p>
+    </div>
+    <div class="text-font-style">
+    	<p></p>
+    </div>
+</body>
+
+</html>
